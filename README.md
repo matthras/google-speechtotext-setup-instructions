@@ -17,6 +17,10 @@ Once everything is setup correctly, you should be able to follow an opinionated 
 
 ## Setup
 
+### Installing `ffmpeg`
+
+Go to https://www.ffmpeg.org/ and download the correct version for your system.
+
 ### Setting up a Cloud Console Project and Installing the Google Cloud SDK
 
 As a litmus test and sanity check, I recommend following the [gcloud Quickstart](https://cloud.google.com/speech-to-text/docs/quickstart-gcloud) as the steps listed there are also part of the initial setup.
