@@ -65,4 +65,13 @@ Note: I tried doing the process using the terminal commands and FLAC files on my
 
 3. Obtain the URI to the file you just uploaded. It should look something like `gs://[BUCKET NAME]/[FILE NAME.flac]`. Copy this link to the Python script to the URI link as indicated. Edit any other variables as needed.
 
-4. Run the Python script and wait - as a rough rule of thumb, the transcription process on Google Cloud should take at most the length of the audio itself. The resulting file will appear in the same folder as this script 'transcript.txt' (or whatever filename you've changed it to).
+4. Run the Python script and wait until it's done. As a rough rule of thumb, the transcription process on Google Cloud should take at most the length of the audio itself. The resulting file will appear in the same folder as this script 'transcript.txt' (or whatever filename you've changed it to).
+
+## Transcription Tips/Notes
+
+* Use a media player that enables you to fast-forward and rewind 5-10 seconds at a time. I currently use [VLC Media Player](https://www.videolan.org/vlc/index.html) for this.
+* Expect transcription time to take 2-3 times the length of the audio, depending on typing speed and quality of transcript.
+
+If editing a podcast transcript: 
+* Strike a balance between representing what is verbally said, but also for reading clarity. Some speakers may use a lot of filler words, repeat themselves a lot, or tend to speak in very long run-on sentences. Similar goes for punctuation.
+* Ensure you've got the names of all speakers beforehand, which makes it easier to copy/paste. Speaker names should be bolded.
