@@ -4,6 +4,8 @@ The purpose of this repo is for me to store scripts and instructions on how to t
 
 Once everything is setup correctly, you should be able to follow an opinionated step-by-step process to obtain a transcription (text file) of any audio file by running a Python script (of which a general version is provided in this repo).
 
+In general the accuracy of Google's Speech-To-Text isn't all that great (I'd estimate about 80%), but it still does enough to take a fair amount of effort out of transcribing an entire file from scratch. If you're looking for greater accuracy, I still recommend converting the audio to a video, uploading it to Youtube as a private video, then downloading the subtitles from there.
+
 ## Assumptions
 
 * I'm currently using Windows 10 so the instructions are tailored towards that. 
